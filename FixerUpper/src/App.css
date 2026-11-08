@@ -1,10 +1,9 @@
 :root {
-  --bg: #E8ECEE;
-  --ink: #12343B;
+  --bg: #e0f5ff;
+  --ink: #031f24;
   --muted: #5B6F75;
   --line: #C5D0D4;
   --panel: #F7F9F9;
-  --tag: #F2B705;
   --repair: #2F7D5B;
   --replace: #B8432F;
   --reuse: #2E6C9E;
@@ -13,11 +12,11 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #0F1D21;
-    --ink: #E4EEF0;
-    --muted: #8FA5AB;
-    --line: #264047;
-    --panel: #16282D;
+    --bg: #d6f6ff;
+    --ink: #0c2429;
+    --muted: #0d191c;
+    --line: #073845;
+    --panel: #c3afca;
   }
 }
 
@@ -102,11 +101,6 @@ textarea {
   resize: vertical;
 }
 
-:focus-visible {
-  outline: 3px solid var(--tag);
-  outline-offset: 2px;
-}
-
 button {
   font: inherit;
   font-weight: 600;
@@ -134,36 +128,6 @@ button:disabled {
   margin-top: 10px;
   border-radius: 4px;
   display: block;
-}
-
-.tag {
-  display: inline-block;
-  background: var(--tag);
-  color: #1b1b1b;
-  font: 800 1.7rem "Trebuchet MS", sans-serif;
-  padding: 8px 22px 8px 34px;
-  clip-path: polygon(16px 0, 100% 0, 100% 100%, 16px 100%, 0 50%);
-  text-transform: capitalize;
-}
-
-.tag.repair {
-  background: var(--repair);
-  color: #fff;
-}
-
-.tag.replace {
-  background: var(--replace);
-  color: #fff;
-}
-
-.tag.reuse {
-  background: var(--reuse);
-  color: #fff;
-}
-
-.tag.recycle {
-  background: var(--recycle);
-  color: #fff;
 }
 
 .report h2 {

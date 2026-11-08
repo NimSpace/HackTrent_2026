@@ -94,7 +94,7 @@ export default function App() {
   return (
     <main>
       <header>
-        <h1>FixFirst</h1>
+        <h1>FixerUpper</h1>
         <p>Snap a photo of what broke. Get a verdict: repair it, replace it, reuse it, or recycle it.</p>
       </header>
 
